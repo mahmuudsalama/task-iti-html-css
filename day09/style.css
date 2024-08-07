@@ -1,0 +1,15 @@
+svg{
+    border: 2px solid orange;
+    border-radius: 6px;
+}
+polyline{
+    
+    transform: translate(16px, 113px);
+}
+#heart{
+    transform: translate(85px, 181px);
+
+}
+/* svg polyline,path{
+    transform: translate(200px , 200px);
+}  */

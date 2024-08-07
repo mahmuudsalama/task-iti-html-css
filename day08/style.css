@@ -1,0 +1,281 @@
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+#nave{
+  background-color: #1c1c1c;
+  position: fixed;
+  color: white;
+  z-index: 1001;
+  width: 100%;
+  text-align: center;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 168px;
+}
+#list ul{
+    display: flex;
+}
+
+.logo {
+    color: red;
+    font-size: 29px;
+    margin: 5px 68px
+ 
+}
+
+#list ul li{
+    display: flex;
+    color: white;
+    margin: 20px 9px;
+    
+    list-style: none;
+}
+
+#list ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+/* .clear{
+    clear: both;
+} */
+nav#list {
+    margin-left: 191px;
+}
+
+.firtsection{
+    background-color: black;
+    padding-left: 239px;
+    padding-top: 267px;
+    padding-bottom: 131px;
+}
+
+#titleandword{
+   
+    font-size: 34px;
+    color: white;
+    display: flex;
+    padding-bottom: 29px;
+}
+button#getstart {
+    font-size: 21px;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    border: 1px solid white;
+}
+
+
+section.sectiontwo {
+    background-color: white;
+    padding: 188px 184px;
+}
+h2#titlesectiontwo {
+    color: red;
+    padding-bottom: 27px;
+    font-size: 30px;
+}
+article#wordoftwosection {
+    font-size: 18px;
+    /* font-weight: 400; */
+}
+button#learnmore {
+    background-color: white;
+    color: red;
+    border: 1px solid #ed0808;
+    font-size: 17px;
+    padding: 15px;
+    margin: 29px 0;
+}
+
+section.sectionthree {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+section#firstimageanddeteails {
+    margin: 0px 0px;
+    background-color: #f3f3f3;
+}
+h3#titleofimageone {
+    /* margin: 38px 0px; */
+    margin-top: 78px;
+    margin-left: --96px;
+    font-size: 23px;
+    color: red;
+}
+
+
+img#imageone {
+    width: 63%;
+    height: 332px;
+    margin-left: 51px;
+}
+
+article#wordofimageone {
+    font-size: 16px;
+    margin-left: 43px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+section#secondimageanddeteails {
+    margin: 0px 0px;
+    background-color:#f3f3f38f;
+}
+
+h3#titleofimagetwo {
+    /* margin: 38px 0px; */
+    margin-top: 78px;
+    margin-left: --96px;
+    font-size: 23px;
+    color: red;
+}
+img#imagetwo {
+    width: 63%;
+    height: 332px;
+    margin-left: 51px;
+}
+article#wordofimageone {
+    font-size: 16px;
+    margin-left: 43px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+section.sectionfour {
+    display: flex;
+    margin: 113px 0px;
+    justify-content: space-around;
+}
+h3#titleofsectiononeinsection4 {
+    color: red;
+    font-size: 24px;
+}
+
+
+article#wordofsectiononeinsection4 {
+    font-size: 16px;
+    margin-bottom: 33px;
+}
+button#btnone {
+    background-color: white;
+    color: red;
+    border: 1px solid #ed0808;
+    font-size: 17px;
+    padding: 15px;
+    margin: 29px 0;
+}
+button#btntwo {
+    background-color: white;
+    color: red;
+    border: 1px solid #ed0808;
+    font-size: 17px;
+    padding: 15px;
+    margin: 29px 0;
+}
+article#wordofsectiontwoinsection4 {
+    font-size: 16px;
+    margin-bottom: 33px;
+}
+h3#titleofsectiontwoinsection4 {
+    color: red;
+    font-size: 24px;
+}
+button#btnthree {
+    background-color: white;
+    color: red;
+    border: 1px solid #ed0808;
+    font-size: 17px;
+    padding: 15px;
+    margin: 29px 0;
+}
+article#wordofsectionthreeinsection4 {
+    font-size: 16px;
+    margin-bottom: 33px;
+}
+h3#titleofsectionthreeinsection4 {
+    color: red;
+    font-size: 24px;
+}
+
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+    height: 700px;
+    width: 100%;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  section.footer {
+    background-color: #e5474b;
+}
+section#allelemnt {
+    padding: 138px 220px;
+}
+h2#headfooter {
+    color: white;
+    font-size: 36px;
+}
+form#forms {
+    /* width: 200px; */
+    color: white;
+    
+}
+section#nameandemail {
+    display: flex;
+    margin-top: 59px;
+    font-size: 31px;
+}
+label {
+    padding-right: 18px;
+    margin-top: 18px;
+    font-size: 27px;
+    display: block;
+}
+input#inpname {
+       width: 207px;
+    height: 34px;
+    padding-right: 11px;
+}
+input#inpemail {
+    width: 207px;
+    height: 34px;
+    padding-right: 11px;
+}
+textarea#message {
+    width: 85%;
+    height: 134px;
+    margin-top: 25px;
+}
+section#textarea {
+    margin-top: 53px;
+}
+
+button#btn {
+    padding: 24px;
+    font-size: 17px;
+    margin-top: 30px;
+    color: white;
+    border: 1px solid white;
+    display: #e5474b;
+    background-color: #e5474b;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- <script type="module" src="./task.js"></script> -->
+
+</head>
+<body>
+    <section id="nave">
+        <section class="logo">introspict</section>
+        <nav id="list">
+            <ul>
+                <li ><a class="changecolor" href="##">HOME</a></li>
+                <li><a class="changecolor" href="##">GENERIC</a></li>
+                <li><a class="changecolor" href="##">ELEMENT</a></li>
+                <li><input type="color" id="colorcheck" oninput="change()"></li>
+            </ul>
+        </nav>
+        <section class="clear"></section>
+    </section>
+
+
+    <section class="firtsection">
+        <section id="titleandword">
+
+            <h1 id="title">INTROSPECT:
+
+                
+            </h1>
+            <article id="word"> A FREE + FULLY RESPONSIVE <br>
+                SITE TEMPLATE BY TEMPLATED</article>
+           
+  
+        </section>
+         <button id="getstart">GET STARTED</button>
+    </section>
+
+    <section class="sectiontwo">
+        <h2 id="titlesectiontwo">MAGNA ETIAM LOREM</h2>
+        <article id="wordoftwosection">Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet <br><br> nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu, erisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu <br><br> gravida tristique. Nunc iaculis mi in ante.</article>
+        <button id="learnmore">LEARN MORE</button>
+    </section>
+
+    <section class="sectionthree">
+        <section id="firstimageanddeteails">
+            <h3 id="titleofimageone">PELLENTESQUE ADIPIS</h3>
+            <img id="imageone" src="pic01.jpg" alt="">
+            <article id="wordofimageone">Cumsan mollis eros. Pellentesque a diam sit amet mi magna<br><br> ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa <br><br> sit amet lorem  ipsum feugiat tempus.</article>
+        </section>
+        <section id="secondimageanddeteails">
+            <h3 id="titleofimagetwo">MORBI INTERDUM MOL</h3>
+            <img id="imagetwo" src="pic02.jpg" alt="">
+            <article id="wordofimageone">Cumsan mollis eros. Pellentesque a diam sit amet mi magna<br><br> ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa <br><br> sit amet lorem  ipsum feugiat tempus.</article>
+        </section>
+    </section>
+
+
+    <section class="sectionfour">
+        <section id="firstsectioninsection4">
+            <h3 id="titleofsectiononeinsection4">TEMPUS FEUGIAT</h3>
+            <!-- <img id="imageone" src="pic01.jpg" alt=""> -->
+            <article id="wordofsectiononeinsection4">Morbi interdum mollis sapien. Sed ac <br><br>risus. Phasellus lacinia, magna lorem <br><br>ullamcorper laoreet, lectus arcu.</article>
+            <button id="btnone">LEARN MORE</button>
+        
+        </section>
+        <section id="secondsectioninsection4">
+            <h3 id="titleofsectiontwoinsection4">ALIQUAM NULLA</h3>
+            <!-- <img id="imagetwo" src="pic02.jpg" alt=""> -->
+            <article id="wordofsectiontwoinsection4">Ut convallis, sem sit amet interdum <br><br> consectetuer, odio augue aliquam leo,<br><br> nec dapibus tortor nibh sed.</article>
+            <button id="btntwo">LEARN MORE</button>
+        </section>
+        <section id="threesectioninsection4">
+            <h3 id="titleofsectionthreeinsection4">SED MAGNA</h3>
+            <!-- <img id="imagetwo" src="pic02.jpg" alt=""> -->
+            <article id="wordofsectionthreeinsection4">Suspendisse mauris. Fusce accumsan <br><br> mollis eros. Pellentesque a diam sit amet <br><br> mi ullamcorper vehicula.</article>
+            <button id="btnthree">LEARN MORE</button>
+          
+        </section>
+    </section>
+
+    <div id="map"></div>
+
+    <!-- 
+      The `defer` attribute causes the script to execute after the full HTML
+      document has been parsed. For non-blocking uses, avoiding race conditions,
+      and consistent behavior across browsers, consider loading using Promises. See
+      https://developers.google.com/maps/documentation/javascript/load-maps-js-api
+      for more information.
+      -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&v=weekly"
+      defer
+    ></script>
+      
+
+    <section class="footer">
+        <section id="allelemnt">
+
+            <h2 id="headfooter">GET IN TOUCH</h2>
+            <form id="forms" action="">
+                <section id="nameandemail">
+    
+                    <label for="inpname">NAME <br><br></label>
+                <input id="inpname" type="text" placeholder="enter your name">
+                <label for="inpemail">&nbsp;&nbsp;&nbsp;EMAIL<br><br></label>
+                <input id="inpemail" type="email" placeholder="enter your email">
+                </section>
+                <section id="textarea">
+
+                    <label for="message" id="labelofmessage">MESSAGE</label>
+                    <textarea name="message" id="message"  rows="6"></textarea>
+                    <button type="submit" id="btn">SEND MESSAGE</button>
+                </section>
+              
+            </form>
+        </section>
+       
+    </section>
+
+  
+
+    <script src="task.js"></script>
+</body>
+</html>
